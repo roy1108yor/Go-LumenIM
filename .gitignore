@@ -24,3 +24,50 @@ makefile
 *.njsproj
 *.sln
 *.sw?
+
+# System and Version Control Files
+.git/
+.DS_Store
+Thumbs.db
+.nfs*
+
+# Dependencies and Build Artifacts
+.pnpm-store/
+env/
+venv/
+vendor/
+cython_debug/
+core.*
+*.dll
+
+# Logs, Temporary, and Backup Files
+*.tmp
+*.bak
+*.old
+*.pid
+*.seed
+*.pid.lock
+
+# Environment and Configuration Files
+.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# JavaScript/TypeScript
+.pnpm-debug.log*
+*.tsbuildinfo
+
+# Python
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.env
+
+# Go
+*.exe
+*.out
+*.test
